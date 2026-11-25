@@ -8,4 +8,9 @@
     <fieldPermissions><editable>true</editable><field>Account.Region__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Account.Account_Size__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Account.Customer_Since__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Veridian_Contact_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Role_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Lead_Source_Detail__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Date_Added__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Is_Primary__c</field><readable>true</readable></fieldPermissions>
 </PermissionSet>
