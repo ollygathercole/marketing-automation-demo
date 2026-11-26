@@ -1,6 +1,6 @@
 """Prepare the Veridian contacts for loading into Salesforce.
 
-Reads data/raw/contacts.csv, keeps the contacts flagged for HubSpot, and
+Reads data/raw/contacts.csv, keeps the contacts flagged for Veridian Engage, and
 writes data/processed/sf_contacts.csv with column names matching the
 Salesforce Contact object and the custom fields in force-app.
 The Account.Veridian_Account_ID__c column links each contact to its
@@ -16,7 +16,7 @@ import pandas as pd
 
 def main():
     contacts = pd.read_csv(Path("data/raw/contacts.csv"))
-    contacts = contacts[contacts["in_hubspot"]]
+    contacts = contacts[contacts["in_engage"]]
 
     sf = pd.DataFrame({
         "FirstName": contacts["first_name"],

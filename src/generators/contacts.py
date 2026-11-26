@@ -16,7 +16,7 @@ import pandas as pd
 from faker import Faker
 
 SEED = 43
-HUBSPOT_CONTACTS = 900
+ENGAGE_CONTACTS = 900
 TODAY = date(2026, 11, 25)
 
 random.seed(SEED)
@@ -131,10 +131,10 @@ def main():
     df = pd.DataFrame(rows)
     df.insert(0, "contact_id", [f"CON-{i:05d}" for i in range(1, len(df) + 1)])
 
-    # Choose exactly 900 contacts to load into HubSpot (free cap is 1,000)
-    hubspot_rows = random.sample(range(len(df)), min(HUBSPOT_CONTACTS, len(df)))
-    df["in_hubspot"] = False
-    df.loc[hubspot_rows, "in_hubspot"] = True
+    # Choose exactly 900 contacts to load into Veridian Engage
+    engage_rows = random.sample(range(len(df)), min(ENGAGE_CONTACTS, len(df)))
+    df["in_engage"] = False
+    df.loc[engage_rows, "in_engage"] = True
 
     out_dir = Path("data/raw")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -148,7 +148,7 @@ def main():
     print("Contacts by lead source:")
     print(df["lead_source"].value_counts())
     print()
-    print(f"Contacts marked for HubSpot: {df['in_hubspot'].sum()}")
+    print(f"Contacts marked for Veridian Engage: {df['in_engage'].sum()}")
 
 
 if __name__ == "__main__":

@@ -158,7 +158,7 @@ def main():
     events_df.to_csv(out_dir / "account_events.csv", index=False)
 
     # Private answer key for checking Claude's findings later.
-    # Never load this file into Salesforce, HubSpot or BigQuery.
+    # Never load this file into Salesforce, Veridian Engage or BigQuery.
     key = pd.DataFrame(
         {"account_id": list(pattern), "hidden_pattern": list(pattern.values())}
     )

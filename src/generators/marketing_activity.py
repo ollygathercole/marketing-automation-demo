@@ -2,9 +2,9 @@
 
 Reads data/raw/contacts.csv and creates:
   campaigns.csv           email campaigns (newsletters, product emails, webinar invites)
-  email_activity.csv      sends, opens and clicks for the HubSpot contacts
+  email_activity.csv      sends, opens and clicks for the Veridian Engage contacts
   webinar_attendance.csv  webinar registrations and attendance
-  demo_requests.csv       demo requests from HubSpot contacts
+  demo_requests.csv       demo requests from Veridian Engage contacts
   web_sessions.csv        website sessions (for the BigQuery analytics layer)
 
 Hidden story: contacts who attend a webinar request a demo at about three
@@ -86,9 +86,9 @@ def random_day(start, end):
     return date.fromordinal(random.randint(start.toordinal(), end.toordinal()))
 
 
-def load_hubspot_contacts():
+def load_engage_contacts():
     contacts = pd.read_csv(Path("data/raw/contacts.csv"))
-    hub = contacts[contacts["in_hubspot"]]
+    hub = contacts[contacts["in_engage"]]
     return [
         {
             "contact_id": r.contact_id,
@@ -273,7 +273,7 @@ def build_web_sessions(campaigns):
 
 
 def main():
-    hub = load_hubspot_contacts()
+    hub = load_engage_contacts()
     campaigns = build_campaigns()
     email_rows = build_email_activity(campaigns, hub)
     attendance = build_attendance(hub)

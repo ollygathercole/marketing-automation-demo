@@ -4,7 +4,7 @@ Reads the generated CSVs in data/raw and writes a SQLite database at
 data/processed/engage.db with three tables, organised the way marketing
 automation platforms usually organise data:
 
-  leads       the people marketing talks to (the 900 HubSpot-flagged contacts)
+  leads       the people marketing talks to (the 900 Engage-flagged contacts)
   programs    email campaigns and webinars
   activities  one log of everything that happened: sends, opens, clicks,
               webinar registrations, attendance and demo requests
@@ -40,7 +40,7 @@ def add_days(day_text, days):
 
 def build_leads():
     contacts = read_csv("contacts.csv")
-    contacts = contacts[contacts["in_hubspot"]]
+    contacts = contacts[contacts["in_engage"]]
     return pd.DataFrame({
         "lead_id": contacts["contact_id"],
         "account_id": contacts["account_id"],
