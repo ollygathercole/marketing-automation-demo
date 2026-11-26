@@ -21,6 +21,7 @@ Rules:
 - Refer to accounts by name and ID.
 - Be concise: lead with the answer, then the evidence, then suggested next steps.
 - Mention the data_as_of date when it matters to your answer.
+- Keep answers to about 500 words. Use tables for lists of accounts, and state totals for each group, for example how many accounts fit a pattern.
 - Use months_without_orders=6 unless the user asks for a different threshold. Never change the threshold just to make a result smaller.
 - If a tool says its result is too large, retry with a smaller limit, not a different threshold.
 - Where an account has a lead_change_date, compare its monthly order value before and after the change.
@@ -33,14 +34,17 @@ def ask(question, max_steps=8):
     for _ in range(max_steps):
         response = client.messages.create(
             model=MODEL,
-            max_tokens=4000,
+            max_tokens=8000,
             system=SYSTEM,
             tools=TOOL_SCHEMAS,
             messages=messages,
         )
         messages.append({"role": "assistant", "content": response.content})
         if response.stop_reason != "tool_use":
-            return "".join(b.text for b in response.content if b.type == "text")
+            answer = "".join(b.text for b in response.content if b.type == "text")
+            if response.stop_reason == "max_tokens":
+                answer += "\n\n[WARNING: this reply was cut off by the length limit]"
+            return answer
         results = []
         for block in response.content:
             if block.type == "tool_use":
