@@ -71,6 +71,39 @@ TABLES = {
         S("device", "STRING"),
         S("country", "STRING"),
     ]),
+    "campaigns": ("campaigns.csv", [
+        S("campaign_id", "STRING"),
+        S("name", "STRING"),
+        S("campaign_type", "STRING"),
+        S("send_date", "DATE"),
+    ]),
+    "email_activity": ("email_activity.csv", [
+        S("email_id", "STRING"),
+        S("campaign_id", "STRING"),
+        S("contact_id", "STRING"),
+        S("send_date", "DATE"),
+        S("delivered", "BOOL"),
+        S("opened", "BOOL"),
+        S("clicked", "BOOL"),
+        S("unsubscribed", "BOOL"),
+    ]),
+    "webinar_attendance": ("webinar_attendance.csv", [
+        S("registration_id", "STRING"),
+        S("webinar_name", "STRING"),
+        S("webinar_date", "DATE"),
+        S("contact_id", "STRING"),
+        S("account_id", "STRING"),
+        S("registered_date", "DATE"),
+        S("attended", "BOOL"),
+    ]),
+    "demo_requests": ("demo_requests.csv", [
+        S("demo_id", "STRING"),
+        S("contact_id", "STRING"),
+        S("account_id", "STRING"),
+        S("request_date", "DATE"),
+        S("product_interest", "STRING"),
+        S("request_source", "STRING"),
+    ]),
 }
 
 
