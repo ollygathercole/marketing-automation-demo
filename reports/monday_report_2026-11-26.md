@@ -1,33 +1,33 @@
-# Veridian Optics: Monday briefing, 2026-11-26
+# Veridian Optics: weekly commercial briefing, 2026-11-26
 
-**Veridian Optics commercial briefing, Monday (data as of 25 November 2026)**
+Consumables: 96 accounts have a gap at the 6-month threshold, and 34 of them have a recorded clinical lead change. Marketing: demo requests fell to 7 from 12 as email volume halved, and there were no webinar registrations or attendances in the last eight weeks, even though webinar attendees request demos at 25.9%.
 
-**Headline:** 96 accounts have a consumables gap at the 6-month threshold, and 34 of them had a clinical lead change, with several large sites now ordering far below their previous level. In marketing, demo requests fell to 7 from 12 in the latest four weeks, email volume halved, and no webinars ran in either period.
+Data as of 2026-11-25.
 
 ## 1. Consumables
 
-- **96 accounts have a gap.** 34 have a recorded clinical lead change and 62 do not.
-- Monthly order value is the average per month, before versus since the lead change. Which accounts to contact and the questions to ask are my judgement. The ranking is by size of drop and number of devices affected, and I swapped one lead-change account for a lapsed non-lead-change account.
+- **Gap accounts at 6 months:** 96 in total. 34 have a recorded clinical lead change and 62 do not.
 
-| # | Account | What changed | First question to ask |
-|---|---|---|---|
-| 1 | Lisburn Lagan Hospital (ACC-0231) | Lead change 11 Mar 2026. £1,121 to £254 a month. Still ordering, but 2 of 4 devices have a Surgical Packs gap. | Who now orders Surgical Packs, and is it through a different supplier? |
-| 2 | Llandudno Conwy Hospital (ACC-0055) | Lead change 22 Jul 2025. £844 to £64 a month. Still ordering, but 4 of 5 devices have gaps. | Has the new lead changed which products they use? |
-| 3 | Wolverhampton Royal Hospital (ACC-0328) | Lead change 1 Jan 2026. £985 to £208 a month. 3 of 4 devices have gaps. | Is the new lead aware of our standing order arrangements? |
-| 4 | Harbourview Healthcare Maidstone (ACC-0023) | Lead change 8 Jul 2025. £601 to £52 a month. Last order 19 Nov 2026, 3 of 4 devices have gaps. | Are the gap devices still in clinical use? |
-| 5 | Sovereign Private Hospitals Truro (ACC-0351) | Lead change 11 Jan 2026. £534 to £18 a month. Stopped ordering, last order 24 Jan 2026. | Who owns purchasing now? |
-| 6 | Meridian Eye Hospitals Bristol (ACC-0091) | Lead change 27 Apr 2026. £709 to £149 a month. Last order 19 May 2026, all 4 devices have gaps. | Did ordering stop when the lead changed? |
-| 7 | Linden Vision Group Guildford (ACC-0313) | Lead change 23 Aug 2025. £503 to £88 a month. Last order 6 Feb 2026, all 5 devices have gaps. | Has the group moved purchasing to another site or supplier? |
-| 8 | Northumbria Coastal Hospital (ACC-0263) | No lead change recorded. Last order 15 Jul 2025, all 5 devices have gaps. | Are these devices still in use, and who now supplies them? |
+| Account | What changed | Suggested first question |
+|---|---|---|
+| Lisburn Lagan Hospital (ACC-0231) | Lead change 2026-03-11. Monthly value fell from £1,121 to £254. Still ordering something (last order 2026-07-20). 2 of 4 devices have a Surgical Packs gap. | Who now places Surgical Pack orders, and why have they stopped for those two devices? |
+| Llandudno Conwy Hospital (ACC-0055) | Lead change 2025-07-22. Monthly value fell from £844 to £64. Still ordering something (last order 2026-10-03). 4 of 5 devices have a gap. | Has purchasing moved to a different supplier or route since the new lead arrived? |
+| Wolverhampton Royal Hospital (ACC-0328) | Lead change 2026-01-01. Monthly value fell from £985 to £208. Still ordering something (last order 2026-08-01). 3 of 4 devices have a gap. | Are Surgical Packs and Probe Tips now bought elsewhere or no longer being used? |
+| Meridian Eye Hospitals Bristol (ACC-0091) | Lead change 2026-04-27. Monthly value fell from £709 to £149. Not ordering anything (last order 2026-05-19). All 4 devices have a gap. | Is the new lead aware of the standing consumables arrangement? |
+| Harbourview Healthcare Maidstone (ACC-0023) | Lead change 2025-07-08. Monthly value fell from £601 to £52. Still ordering something (last order 2026-11-19). 3 of 4 devices have a gap. | Which three devices are being supplied differently from the one still ordering? |
+| Northumbria Coastal Hospital (ACC-0263) | No lead change. All 5 devices have a gap. Last order 2025-07-15, the longest wait of any gap account that has ordered. | Is anyone still responsible for consumables at this site? |
+| Linden Vision Group Southwark (ACC-0259) | No lead change. All 5 devices have a gap. Last order 2026-01-17. | Why did ordering stop after January across all five devices? |
+| Aberystwyth Ceredigion Hospital (ACC-0216) | No lead change. 4 of 4 devices have a gap. Last order 2025-10-12. | Are the Probe Tips and Calibration Kits being sourced elsewhere? |
 
-**Probable false alarms or data checks:**
-- 16 accounts have no order on record. For example, Blackpool Coastal Hospital (ACC-0041) has 4 devices with a gap. Check whether these accounts have never ordered or are missing history before any outreach.
-- 13 accounts have a single-device gap but ordered in November, for example Solihull Heart of England Hospital (ACC-0281). This is probably a device-level issue rather than lapsing (inference).
-- Meridian Eye Hospitals Plymouth (ACC-0283) has a lead change, but order value rose from £0 to £37 a month. It is not a decline.
+The five lead-change accounts were ranked by the biggest pound fall in monthly order value. The three others were ranked by devices with a gap, then by oldest last order, leaving out accounts that have never ordered.
+
+**Probable false alarms:** 13 accounts. The definition is exactly one device gap and an order in the last 30 days, which means on or after 2026-10-26.
+
+**Never ordered:** 16 accounts own devices but have never ordered consumables. Two of them also have a recorded lead change: Meridian Eye Hospitals Durham (ACC-0076) and Manchester Eye Specialists (ACC-0051). These are not false alarms. For example, Blackpool Coastal Hospital (ACC-0041) has four devices and no monthly order history. Its oldest device was installed in 2020.
 
 ## 2. Marketing
 
-| Metric | Latest 4 weeks (28 Oct to 24 Nov) | Previous 4 weeks (30 Sep to 27 Oct) |
+| Measure | Latest 4 weeks (28 Oct to 24 Nov) | Previous 4 weeks (30 Sep to 27 Oct) |
 |---|---|---|
 | Emails sent | 829 | 1,634 |
 | Delivered | 807 | 1,575 |
@@ -37,26 +37,23 @@
 | Webinar registrations / attendances | 0 / 0 | 0 / 0 |
 | Demo requests | 7 | 12 |
 
-- Only the November newsletter went out in the latest period. The previous period also had the Year-End Planning Guide.
-- Calculated from the table: the open rate rose to 32.6% from 29.7%. The click rate fell to 3.3% from 4.1%.
-- The fall in demo requests matches the drop in send volume. That is an inference, not something the data proves.
-- The latest period's requests were mostly for the Cloud Image Platform (5 of 7).
+The latest period had one campaign, the November newsletter. The previous period had two: Year-End Planning Guide and the October newsletter. The fall in volume therefore reflects fewer sends. Calculated from the table, the open rate was 32.6% against 29.7%, and the click rate was 3.3% against 4.1%. Cloud Image Platform led demo requests with 5 of the 7.
 
-**Webinars:** attendees request demos far more often than other contacts.
+**Webinars and demos:** Webinar attendees do request demos more often than other contacts.
 
 | Segment | Contacts | Requested a demo | Demo rate |
 |---|---|---|---|
 | Attended a webinar | 232 | 60 | 25.9% |
-| Never registered | 516 | 44 | 8.5% |
 | Registered but did not attend | 134 | 11 | 8.2% |
+| Never registered | 516 | 44 | 8.5% |
 
-- **Caveat on cause:** this shows an association, not a cause. Attendees may already have been more interested, so webinars may not be what drives the demo requests.
+This shows an association, not a cause. Attendees may already have been more interested before they joined, so a webinar may not be what drives the demo request.
 
 ## 3. Three actions for this week
 
-1. **Call the top five lead-change accounts (rows 1 to 5 in the table).** Ask for the current purchasing owner and check whether orders are going to another supplier. Log the answers in the CRM.
-2. **Send the 16 no-order accounts to sales operations for a data check.** Ask them to confirm whether each has ever ordered, and hold outreach to those accounts until that is confirmed.
-3. **Plan a webinar and a follow-up email.** Nothing ran in the last eight weeks. Agree a date and invite the 516 contacts who never registered. Re-send the Year-End Planning Guide to contacts who did not click it.
+1. **Call the five lead-change accounts in the table**, starting with Lisburn Lagan Hospital (ACC-0231) and Llandudno Conwy Hospital (ACC-0055). Ask who now owns consumables ordering. Meridian Eye Hospitals Bristol (ACC-0091) has stopped ordering entirely, so contact it first.
+2. **Contact Northumbria Coastal Hospital (ACC-0263) and Linden Vision Group Southwark (ACC-0259).** Both have gaps on all 5 devices and no recorded lead change. Check whether anyone is still responsible for consumables.
+3. **Start with the 16 accounts that have never ordered, beginning with Blackpool Coastal Hospital (ACC-0041).** Find out why no consumables order was ever set up on its four devices. As an inference, this may be an onboarding gap, and the data doesn't confirm it. Also plan a webinar, since none ran in the last eight weeks and attendees show the highest demo rate.
 
 ---
 *Generated by Claude using fixed, read-only BigQuery tools. Veridian Optics and all data are fictional.*
