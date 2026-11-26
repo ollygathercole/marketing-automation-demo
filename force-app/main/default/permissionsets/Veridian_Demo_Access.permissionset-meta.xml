@@ -27,4 +27,29 @@
     <fieldPermissions><editable>true</editable><field>Opportunity.Trial_Start__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Opportunity.Trial_End__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Opportunity.Monthly_Value__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Veridian_Campaign_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Emails_Delivered__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Emails_Opened__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Emails_Clicked__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Emails_Unsubscribed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </PermissionSet>
