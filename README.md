@@ -71,7 +71,7 @@ That is about 88% precision and about 78% recall. The lead change date separates
 ## Limitations
 
 - Precision and recall depend on the threshold. Twelve healthy accounts are flagged at 6 months.
-- The webinar tool cannot tell whether a demo request came before or after the webinar, so the 25.9% against 8% comparison is an association only.
+- The webinar tool cannot tell whether a demo request came before or after the webinar. I checked this separately on the raw data: all 60 attendee demo requests came after the contact's first registration. Even so, the 25.9% against 8% comparison is an association only, because contacts who were already interested may be the ones who register, and the data was generated with this relationship built in.
 - "Still ordering" depends on the threshold chosen.
 - Some accounts stopped ordering before their recorded lead change, so the lead change does not explain every lapse.
 - Salesforce Developer Edition has a 5 MB data limit, which is why the CRM holds a subset of the activity data.

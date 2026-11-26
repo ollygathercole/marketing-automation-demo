@@ -17,7 +17,7 @@ Start with a headline of two sentences: the most important thing in consumables 
 
 ## 2. Marketing
 - The latest four weeks against the previous four weeks, in a short table.
-- Whether webinar attendees request demos more than other contacts, with the caveat on cause.
+- Whether webinar attendees request demos more than other contacts, with the caveat on cause. Label the webinar table "All time" and make clear it is separate from the four-week table above it, which covers only recent weeks.
 
 ## 3. Three actions for this week
 Numbered, each one specific enough to start on Monday morning.
